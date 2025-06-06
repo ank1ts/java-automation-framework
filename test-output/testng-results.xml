@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T13:40:01 CDT" name="Suite" finished-at="2025-06-01T13:40:01 CDT" duration-ms="225">
+    <groups>
+      <group name="Regression">
+        <method signature="testNG_Practice1.Scenario1()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" name="Scenario1" class="testNGPractice.testNG_Practice1"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="testNG_Practice1.Scenario1()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" name="Scenario1" class="testNGPractice.testNG_Practice1"/>
+        <method signature="testNG_Practice1.Scenario2()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" name="Scenario2" class="testNGPractice.testNG_Practice1"/>
+        <method signature="testNG_Practice1.Scenario3()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" name="Scenario3" class="testNGPractice.testNG_Practice1"/>
+        <method signature="testNG_Practice3.A_Scenario_9()[pri:0, instance:testNGPractice.testNG_Practice3@74e52ef6]" name="A_Scenario_9" class="testNGPractice.testNG_Practice3"/>
+        <method signature="testNG_Practice3.B_Scenario_10()[pri:0, instance:testNGPractice.testNG_Practice3@74e52ef6]" name="B_Scenario_10" class="testNGPractice.testNG_Practice3"/>
+        <method signature="testNG_Practice4.Scenario12()[pri:0, instance:testNGPractice.testNG_Practice4@6ed3ccb2]" name="Scenario12" class="testNGPractice.testNG_Practice4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-06-01T13:40:01 CDT" name="support_side" finished-at="2025-06-01T13:40:01 CDT" duration-ms="103">
+      <class name="testNGPractice.testNG_Practice1">
+        <test-method signature="Scenario1()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" started-at="2025-06-01T13:40:01 CDT" name="Scenario1" finished-at="2025-06-01T13:40:01 CDT" duration-ms="18" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at testNGPractice.testNG_Practice1.Scenario1(testNG_Practice1.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method signature="Scenario2()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" started-at="2025-06-01T13:40:01 CDT" name="Scenario2" finished-at="2025-06-01T13:40:01 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method signature="Scenario3()[pri:0, instance:testNGPractice.testNG_Practice1@76505305]" started-at="2025-06-01T13:40:01 CDT" name="Scenario3" finished-at="2025-06-01T13:40:01 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario3 -->
+      </class> <!-- testNGPractice.testNG_Practice1 -->
+    </test> <!-- support_side -->
+    <test started-at="2025-06-01T13:40:01 CDT" name="client_side" finished-at="2025-06-01T13:40:01 CDT" duration-ms="24">
+      <class name="testNGPractice.testNG_Practice3">
+        <test-method signature="A_Scenario_9()[pri:0, instance:testNGPractice.testNG_Practice3@74e52ef6]" started-at="2025-06-01T13:40:01 CDT" name="A_Scenario_9" finished-at="2025-06-01T13:40:01 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Scenario_9 -->
+        <test-method signature="B_Scenario_10()[pri:0, instance:testNGPractice.testNG_Practice3@74e52ef6]" started-at="2025-06-01T13:40:01 CDT" name="B_Scenario_10" finished-at="2025-06-01T13:40:01 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Scenario_10 -->
+      </class> <!-- testNGPractice.testNG_Practice3 -->
+      <class name="testNGPractice.testNG_Practice4">
+        <test-method signature="Scenario12()[pri:0, instance:testNGPractice.testNG_Practice4@6ed3ccb2]" started-at="2025-06-01T13:40:01 CDT" name="Scenario12" finished-at="2025-06-01T13:40:01 CDT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at testNGPractice.testNG_Practice4.Scenario12(testNG_Practice4.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario12 -->
+      </class> <!-- testNGPractice.testNG_Practice4 -->
+    </test> <!-- client_side -->
+  </suite> <!-- Suite -->
+</testng-results>
